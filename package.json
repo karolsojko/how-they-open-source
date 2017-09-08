@@ -1,0 +1,28 @@
+{
+  "name": "how-they-open-source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolsojko/how-they-open-source.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolsojko/how-they-open-source/issues"
+  },
+  "homepage": "https://github.com/karolsojko/how-they-open-source#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.6"
+  }
+}
